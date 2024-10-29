@@ -1,0 +1,75 @@
+
+
+.left-header-items {
+  width: 315px;
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+}
+
+.facebook-icon {
+  height: 45px;
+  width: 45px;
+  margin-right: 5px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.search-button {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border: none;
+  height: 35px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(221, 221, 221, 0.4);
+}
+
+.search-icon-input {
+  display: flex;
+  align-items: center;
+}
+
+.facebook-search-input {
+  font-size: 16px;
+  border: none;
+  height: 35px;
+  width: 210px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: rgba(221, 221, 221, 0.4);
+  padding: 20px 20px 20px 0px;
+}
+
+.facebook-search-input:focus {
+  outline: none;
+}
+
+.search-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.facebook-search-input::placeholder {
+  font-size: 15px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-icon-container {
+  position: relative;
+}
+
+.menu-icon-container:hover .tooltip1 {
+  visibility: visible;
+}

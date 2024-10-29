@@ -1,0 +1,129 @@
+.left-sidebar {
+  background-color: rgba(241, 241, 241, 0.836);
+  position: fixed;
+  left: 0;
+  top: 55px;
+  bottom: 0;
+  width: 295px;
+  overflow-y: hidden;
+}
+
+.left-sidebar:hover {
+  overflow-y: auto;
+}
+
+.profile-pic-sidebar {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+}
+
+.left-side-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.left-content:hover {
+  background-color: rgba(221, 221, 221, 0.753);
+}
+
+.left-sidebar-container {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.icon-name{
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.see-more-icon {
+  border: none;
+  background-color: rgba(206, 206, 206, 0.815);
+  border-radius: 20px;
+}
+
+.section1 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.shortcuts {
+  color: rgb(88, 88, 88);
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.shortcut-pic {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.shortcut {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.shortcut:hover {
+  background-color: rgba(219, 219, 219, 0.76);
+}
+
+.shortcut-name {
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(104, 104, 104);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link1 {
+  text-decoration: none;
+  color: rgb(104, 104, 104);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.copyright {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(104, 104, 104);
+}
+
+.credits {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 14px;
+}
+

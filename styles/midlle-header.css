@@ -1,0 +1,86 @@
+.midlle-header-container {
+  width: 606px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.icon-box:hover {
+  background-color: rgba(221, 221, 221, 0.4);
+}
+
+.tooltip {
+  position: absolute;
+  bottom: -34px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 6px 10px;
+  color: white;
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  transition: visibility 0.2s;
+}
+
+.icon-box:hover .tooltip {
+  visibility: visible;
+  transition-delay: 0.2s;
+}
+
+.midlle-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.home-icon::after {
+  content: " ";
+  position: absolute;
+  border-bottom: 3px solid rgb(72, 72, 255);
+  left: 10%;
+  transform: translateX(-50%);
+  bottom: 0.5px; /* Adjust this value to place the border above the main menu border */
+  width: 18%;
+  border-radius: 2px;
+}
+
+.home-icon:hover {
+  background-color: initial; /* Remove the background color effect on hover */
+}
+
+.tooltip {
+  position: absolute;
+  bottom: -34px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 6px 10px;
+  color: white;
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+}
+
+.menu-icon2 {
+  display: none;
+}
+
+.menu-icon-container2 {
+  position: relative;
+}
+
+.menu-icon-container2:hover .tooltip1 {
+  visibility: visible;
+}
+
+
+

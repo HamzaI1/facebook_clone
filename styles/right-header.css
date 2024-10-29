@@ -1,0 +1,65 @@
+.right-header-items {
+  width: 230px;
+  margin-left: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-icon {
+  height: 23px;
+  width: 23px;
+}
+
+.profile-pic-header {
+  height: 43px;
+  width: 43px;
+  border-radius: 23px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.profile-pic-header-container {
+  position: relative;
+  display: grid;
+  justify-items: center;
+}
+
+.tooltip1 {
+  position: absolute;
+  bottom: -34px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 6px 10px;
+  color: white;
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  transition: visibility 0.2s;
+}
+
+.right-icon-container {
+  background-color: rgba(194, 194, 194, 0.4);
+  padding: 10px 10px;
+  margin-right: 8px;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  transition: visibility 0.2s filter 0.2s;
+}
+
+.right-icon-container:hover, .profile-pic-header:hover {
+  filter: brightness(0.9);
+}
+
+.right-icon-container:hover .tooltip1 ,.profile-pic-header-container:hover .tooltip1 {
+  visibility: visible;
+  transition-delay: 0.2s;
+}
+
+.plus-icon {
+  display: none;
+}
+
